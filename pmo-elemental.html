@@ -15,7 +15,100 @@
   <div class="main-banner-div">
     <a href="index.html"><img class="main-banner" src="images/banner1.png" alt=""></a>
   </div>
-  <nav>
+  <nav class="mobile-nav-bar">
+    <label for="drop" class="toggle-main">NAVEGACÍON</label>
+    <div class="mobile-search">
+      <span onclick="search()" style="cursor: pointer;"><img class="search-img" src="images/search-blue.png" alt="" width="20px"></span>
+      <span class="ui-widget">
+        <input id="tags" class="search-input">
+        <span id="search"></span>
+      </span>
+    </div>
+    <input type="checkbox" id="drop" />
+    <ul class="menu">
+      <li><a href="index.html">INICIO</a></li>
+      <li>
+        <!-- First Tier Drop Down -->
+        <label for="drop-2" class="toggle">SERVICIOS +</label>
+        <a href="servicios.hmtl">SERVICIOS</a>
+        <input type="checkbox" id="drop-2" />
+        <ul>
+          <li>
+            <!-- Second Tier Drop Down -->
+            <label for="drop-3" class="toggle">CONSULTORÍA +</label>
+            <a href="inteligencia-empresarial.html">CONSULTORÍA</a>
+            <input type="checkbox" id="drop-3" />
+            <ul>
+              <li><a href="inteligencia-empresarial.html">INTELIGENCIA EMPRESARIAL</a></li>
+              <li><a href="optimizacion-portafolio-iniciativas.html">OPTIMIZACIÓN DEL PORTAFOLIO DE INICIATIVAS</a></li>
+              <li><a href="planeacion-seguimiento-proyectos.html">PLANEACIÓN Y SEGUIMIENTO DE PROYECTOS</a></li>
+              <li><a href="gestion-beneficios.html">GESTIÓN DE BENEFICIOS</a></li>
+              <li><a href="administracion-cambio.html">ADMINISTRACIÓN DEL CAMBIO</a></li>
+            </ul>
+          </li>
+          <li><a href="implementacion-expertos.html">IMPLEMENTACIÓN</a></li>
+          <li>
+            <!-- Second Tier Drop Down -->
+            <label for="drop-4" class="toggle">TECNOLOGÍA +</label>
+            <a href="tecnologia-inteligencia-empresarial.html">TECNOLOGÍA</a>
+            <input type="checkbox" id="drop-4" />
+            <ul>
+              <li><a href="tecnologia-inteligencia-empresarial.html">INTELIGENCIA EMPRESARIAL</a></li>
+              <li><a href="administracion-empresarial-proyectos-ms-ppm.html">ADMINISTRACIÓN EMPRESARIAL DE PROYECTOS CON MICROSOFT</a></li>
+              <li>
+                <!-- Second Tier Drop Down -->
+                <label for="drop-5" class="toggle" id="toggle-alt">ACELERADORES ASTRAN +</label>
+                <a href="pmo-express.html">ACELERADORES ASTRAN</a>
+                <input type="checkbox" id="drop-5" />
+                <ul>
+                  <li><a href="pmo-express.html">PMO EXPRESS</a></li>
+                  <li><a href="pmo-elemental.html">PMO ELEMENTAL</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <!-- Second Tier Drop Down -->
+            <label for="drop-6" class="toggle">CAPACITACIÓN +</label>
+            <a href="capacitacion.html">CAPACITACIÓN</a>
+            <input type="checkbox" id="drop-6" />
+            <ul>
+              <li><a href="capacitacion.html">CAPACITACIÓN</a></li>
+              <li>
+                <!-- Second Tier Drop Down -->
+                <label for="drop-7" class="toggle" id="toggle-alt">PRÁCTICAS DE GESTIÓN +</label>
+                <a href="administracion-proyectos-predictivos.html">PRÁCTICAS DE GESTIÓN</a>
+                <input type="checkbox" id="drop-7" />
+                <ul>
+                  <li><a href="administracion-proyectos-predictivos.html">ADMINISTRACIÓN DE PROYECTOS PREDICTIVOS</a></li>
+                  <li><a href="administracion-proyectos-agiles.html">PRÁCTICAS ÁGILES</a></li>
+                  <li><a href="administracion-proyectos-hibridos.html">ADMINISTRACIÓN DE PROYECTOS HÍBRIDOS</a></li>
+                  <li><a href="programa-everest.html">PROGRAMA EVEREST PARA CERTIFICACIÓN PMP®</a></li>
+                  <li><a href="capacitacion-administracion-cambio.html">ADMINISTRACIÓN DEL CAMBIO</a></li>
+                </ul>
+              </li>
+              <li>
+                <!-- Second Tier Drop Down -->
+                <label for="drop-8" class="toggle" id="toggle-alt">COMPETENCIAS DIGITALES +</label>
+                <a href="administracion-proyectos-ms-project.html">COMPETENCIAS DIGITALES</a>
+                <input type="checkbox" id="drop-8" />
+                <ul>
+                  <li><a href="administracion-proyectos-ms-project.html">ADMINISTRACIÓN DE PROYECTOS (MS PROJECT)</a></li>
+                  <li><a href="inteligencia-empresarial-ms-powerbi.html">INTELIGENCIA EMPRESARIAL (MS POWER BI)</a></li>
+                  <li><a href="colaboracion-equipos-ms-teams.html">COLABORACIÓN DE EQUIPOS (MS TEAMS)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="experiencia.html">EXPERIENCIA</a></li>
+      <li><a href="acerca-de.html">ACERCA DE</a></li>
+      <li><a href="articulos.html">ARTÍCULOS</a></li>
+      <li><a href="contacto.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+  <nav class="nav-bar">
     <ul>
       <li class="main-li"><a href="index.html">INICIO</a></li>
       <li class="main-li"><a href="servicios.html" class="selected-a">SERVICIOS</a>
@@ -145,6 +238,19 @@
         </table>
         <br />
       </div>
+      <div class="retos-div-mobile">
+              <h2 class="h2-centered">RETOS DE LAS<br /> ORGANIZACIONES</h2>
+              <h4 class="h4-blue">No cuentan con un portafolio</h4>
+              <p class="content-p-nomargin">de proyectos integrado.</p>
+              <h4 class="h4-blue">Las herramientas básicas existentes</h4>
+              <p class="content-p-nomargin">no cubren de manera eficiente las necesidades de administración de proyectos y carecen de colaboracion integradora de proyectos.</p>
+              <h4 class="h4-blue">Necesitan una solución</h4>
+              <p class="content-p-nomargin">en el corto plazo <span class="span-bold">(en dos semanas y media)</span></p>
+              <h4 class="h4-blue">Tienen prácticas de gestión elementales.</h4>
+              <p class="content-p-nomargin"></p>
+              <h4 class="h4-blue">Disponen de poca inversion</h4>
+              <p class="content-p-nomargin">y requieren resultados inmediatos.</p>
+      </div>
       <div class="light-blue-box-div">
         <table width="100%" cellspacing="0">
           <tr>
@@ -159,6 +265,13 @@
             </td>
           </tr>
         </table>
+      </div>
+      <div class="light-blue-box-div-mobile">
+              <h2 class="h2-white-alt">Solución</h2>
+              <img src="images/pmo-elemental-solucion.jpg" alt="" class="nice-img-c">
+              <p class="content-p-white-centered">Esta solución facilita la toma de decisiones con información oportuna sobre el desempeño de los proyectos, integrando las mejores prácticas de Gestión de Proyectos en una herramienta tecnológica que
+                se
+                implementa en <span class="span-bold">dos semanas y media,</span> utilizando <span class="span-italic">Microsoft Project Online</span></p>
       </div>
       <div class="light-blue-clear-box-div">
         <h2 class="h2-centered">
