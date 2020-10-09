@@ -29,6 +29,10 @@ body {
 }
 
 @media only screen and (min-width: 1138px) {
+
+  .beneficios-div-mobile {
+    display: none;
+  }
   .display-none {
     display: none;
   }
@@ -1596,7 +1600,7 @@ ul.service-title>li::before {
 
   .content-p-nomargin {
     font-size: 1.5rem;
-    margin: 0 0 20px 10px;
+    margin: 0 0 10px 10px;
     line-height: 1.5;
     text-align: left;
   }
@@ -1604,7 +1608,7 @@ ul.service-title>li::before {
   .h4-blue {
     text-align: left;
     color: #186088;
-    margin: 0 0 20px 10px;
+    margin: 0 0 0 10px;
     padding: 10px 0 0 0;
     font-size: 2rem;
   }
@@ -1631,6 +1635,7 @@ ul.service-title>li::before {
     border-bottom: none;
     border-right: none;
     height: auto;
+    margin: 0;
   }
 
   h2 {
@@ -1654,7 +1659,7 @@ ul.service-title>li::before {
   }
 
   .content-p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 20px 10px;
     line-height: 1.5;
     text-align: justify;
@@ -1685,7 +1690,7 @@ ul.service-title>li::before {
   }
 
   .content-li-p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 20px 30px 20px 0;
     text-align: justify;
     line-height: 1;
@@ -1791,5 +1796,104 @@ ul.service-title>li::before {
     border-color: #106088;
     height: 25px;
     outline: none;
+  }
+
+  h4 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: .8rem;
+  }
+
+  .h2-centered {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: normal;
+    color: #106088;
+    text-align: center;
+    margin: 0;
+  }
+
+  .beneficios-div {
+    display: none;
+  }
+
+  .h2-centered-bigger {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: lighter;
+    color: #106088;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .h4-light-blue-alt {
+    text-align: left;
+    color: #3898c8;
+    font-size: 2rem;
+    margin: 0 10px;
+  }
+
+  .content-p-lineheight-left {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0 10px 20px 10px;
+  }
+
+  .white-small {
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: lighter;
+    color: white;
+    margin-left: 3px;
+    margin-top: 1px;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: left;
+    font-family: 'd-din_condensedregular';
+    position: absolute;
+  }
+
+  .h2-white {
+    font-size: 2rem;
+    padding: 10px;
+    font-style: normal;
+    font-weight: lighter;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: 'd-din_condensedregular';
+  }
+
+  .content-special-p {
+    font-size: 1.25rem;
+    margin: 20px 0 0 0;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: #f8f8f8;
+    padding: 5px;
+    color: #007898;
+  }
+
+  .content-p-alt {
+    font-size: 1.25rem;
+    margin: 10px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .nice-h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #106088;
+    margin: 10px auto auto 10px;
+  }
+
+  .footer-a {
+    color: #c9a74c;
+    text-decoration: none;
+    text-align: center;
+    font-size: .75rem;
   }
 }
