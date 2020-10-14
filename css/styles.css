@@ -294,7 +294,7 @@ h4 {
   text-align: center;
   color: white;
   margin: 0;
-  padding: 20px 0;
+  padding: 3px;
 }
 
 .h4-blue {
@@ -556,6 +556,7 @@ label {
 .footer-p {
   color: white;
   text-align: center;
+  margin: 8px;
 }
 
 .footer-p-small {
@@ -568,6 +569,7 @@ label {
   color: #c9a74c;
   text-decoration: none;
   text-align: center;
+  margin-top: 0;
 }
 
 a {
@@ -618,6 +620,11 @@ a {
   display: block;
   margin: 0 auto 0 auto;
   max-width: 1138px;
+}
+
+.sitemap-ul a li {
+  color: #106088;
+  font-size: 2rem;
 }
 
 .main-content-div-alt {
@@ -952,7 +959,6 @@ input:focus, textarea:focus {
 }
 
 .search-img {
-  vertical-align: middle;
   width: 20px;
 }
 
@@ -1111,6 +1117,10 @@ input:focus, textarea:focus {
   display: inline-block;
   vertical-align: middle;
   z-index: 100;
+}
+
+.footer-ap {
+  margin-top: 0;
 }
 
 .tooltip .tooltiptext {
@@ -1371,7 +1381,7 @@ ul.service-title>li::before {
     margin: 0;
     padding: 0;
     background-color: white;
-    color: black;
+    color: #106088;
   }
 
   #logo {
@@ -1401,13 +1411,13 @@ ul.service-title>li::before {
     display: inline-block;
     float: left;
     background-color: white;
-    color: black;
+    color: #106088;
   }
 
   nav a {
     display: block;
     padding: 0 10px;
-    color: black;
+    color: #106088;
     font-size: 20px;
     line-height: 60px;
     text-decoration: none;
@@ -1477,7 +1487,7 @@ ul.service-title>li::before {
     display: block;
     background-color: white;
     padding: 0 0 0 10px;
-    color: black;
+    color: #106088;
     font-size: 20px;
     line-height: 60px;
     text-decoration: none;
@@ -1487,7 +1497,7 @@ ul.service-title>li::before {
     display: inline;
     background-color: white;
     padding: 0 0 0 10px;
-    color: black;
+    color: #106088;
     font-size: 20px;
     line-height: 60px;
     text-decoration: none;
@@ -1547,7 +1557,7 @@ ul.service-title>li::before {
   nav ul ul {
     float: none;
     position: static;
-    color: black;
+    color: #106088;
   }
 
   nav ul ul li:hover>ul,
@@ -1599,7 +1609,7 @@ ul.service-title>li::before {
   }
 
   .content-p-nomargin {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 0 0 10px 10px;
     line-height: 1.5;
     text-align: left;
@@ -1610,7 +1620,7 @@ ul.service-title>li::before {
     color: #186088;
     margin: 0 0 0 10px;
     padding: 10px 0 0 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .light-blue-box-div {
@@ -1784,9 +1794,9 @@ ul.service-title>li::before {
   }
 
   .search-input {
-    width: auto;
+    width: 75%;
     padding: auto;
-    margin: 8px 0;
+    margin: auto;
     box-sizing: border-box;
     border-radius: 15px;
     border-width: 1px;
@@ -1794,7 +1804,7 @@ ul.service-title>li::before {
     background-color: white;
     color: #106088;
     border-color: #106088;
-    height: 25px;
+    height: 20px;
     outline: none;
   }
 
@@ -1807,7 +1817,7 @@ ul.service-title>li::before {
   }
 
   .h2-centered {
-    font-size: 3rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: normal;
     color: #106088;
@@ -1883,7 +1893,7 @@ ul.service-title>li::before {
     text-align: justify;
   }
 
-  .nice-h3 {
+  .nice-h3 {h2-centered
     font-size: 1.5rem;
     font-weight: bolder;
     color: #106088;
@@ -1895,5 +1905,43 @@ ul.service-title>li::before {
     text-decoration: none;
     text-align: center;
     font-size: .75rem;
+  }
+
+  .mobile-nav-bar {
+    height: auto;
+  }
+
+  .search-img {
+    width: 20px;
+    float: right;
+    clear: right;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .servicios-p2 {
+    text-align: center;
+    color: white;
+    font-size: .75rem;
+    font-family: "dinregular";
+    margin: 5px;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .service-title {
+    text-align: center;
+    color: white;
+    font-size: .75rem;
+    font-family: "dinregular";
+    margin: 2px;
+  }
+
+  .sitemap-ul a li {
+    color: #106088;
+    font-size: 1rem;
+    line-height: 30px;
   }
 }
